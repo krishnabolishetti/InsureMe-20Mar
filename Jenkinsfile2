@@ -5,7 +5,7 @@ pipeline {
     stage('CheckOut') {
       steps {
         echo 'Checkout the source code from GitHub'
-        git branch: 'main', url: 'https://github.com/Pratap-mulakala/InsureMe-20Mar.git'
+        git branch: 'main', url: 'https://github.com/krishnabolishetti/InsureMe-20Mar.git'
             }
     }
     
